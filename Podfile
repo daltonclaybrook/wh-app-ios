@@ -1,5 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
+
 platform :ios, '8.0'
 
-pod 'Bugsnag', :git => "https://github.com/bugsnag/bugsnag-cocoa.git"
-pod 'MWPhotoBrowser'
+target 'WhiteHouse' do
+    pod 'Bugsnag', '~> 5.3'
+    pod 'MWPhotoBrowser', '~> 1.4'
+end
+
+
